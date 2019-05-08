@@ -1,2 +1,0 @@
-image size -> width: 700px
-canvas size-> 900x650
