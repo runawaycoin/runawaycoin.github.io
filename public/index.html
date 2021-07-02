@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/freelancer.css?v=1" rel="stylesheet">
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -503,7 +503,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>rc-budget</h2>
+                  <h2>RC budget</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" style="width: 50%" src="img/portfolio/rc-budget.png" alt="">
                   <p>
@@ -550,7 +550,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>rc-noteit</h2>
+                  <h2>RC note it</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" style="width: 50%" src="img/portfolio/rc-noteit.png" alt="">
                   <p>
@@ -560,7 +560,7 @@
                     I couldn't find something that catered for all my needs - so I built something my self.
                     </p>
                   <p>
-                    RC-Noteit is a web based application that helps me keep rack of my life (well notes, ideas, lists, links) in a simple yet pretty way.
+                    RC-Note it is a web based application that helps me keep rack of my life (well notes, ideas, lists, links) in a simple yet pretty way.
                   </p>
 
                   <ul class="list-inline item-details">
@@ -602,42 +602,29 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>rc-gallery</h2>
+                  <h2>RC gallery</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" style="width: 50%" src="img/portfolio/rc-gallery.png" alt="">
 
-                  <p>I wanted a way to collate all the family's photos</p>
+                  <p>I wanted a way to collate all the family's photos together</p>
 
+                  <p>There were apps to do this but none imported from multiple devices and many were expensive</p>
 
-                  couldnt find something so built it myself
-
-
-
-                  Imports photos from local filesystem, reads the photo data for camera and taken date, creates thumbnails
-                    Uploads to S3 bucket
-
-                  On gallery page: slider to change size of photos, mass delete function for quick deleting of photos
-
-
-
+                  <p>So I built something that would import photos from many sources, creates thumbnails and organises them into albums</p>
 
                   <ul class="list-inline item-details">
-                    <li>Features:
+
+                    <li>Languages & Frameworks:<br>
                       <strong>
-                        Doctrine, justified gallery
-                      </strong>
+                        PHP, Symfony, Doctrine, Justified Gallery, JQuery, Bootstrap, MySQL
+                      </strong><br><br>
                     </li>
-                    <li>Platform:
+                    <li>Platform:<br>
                       <strong>
                         Web
-                      </strong>
+                      </strong><br><br>
                     </li>
-                    <li>Languages & Frameworks:
-                      <strong>
-                        PHP, Symfony, JQuery, Bootstrap, MySQL
-                      </strong>
-                    </li>
-                    <li>Date:
+                    <li>Date:<br>
                       <strong>
                         2015 - ongoing
                       </strong>
@@ -665,39 +652,40 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>rc-depit</h2>
+                  <h2>RC depit</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" style="width: 50%" src="img/portfolio/rc-depit.png" alt="">
-                  <p>I used standard cPanel PHP shared hosting to host my Symfony based websites, which does not offer SSH access therefore i couldn't run the symfony console deployment routines on the server.</p>
-                  <p>Therefore i developed my own deployment routine application, written in PHP it:</p>
+                  <p>I used standard and common cPanel PHP shared hosting to host my Symfony based websites, which does not offer SSH access therefore I couldn't run the symfony console deployment routines on the server easily.</p>
+                  <p>So I developed my own automated deployment application, written in pure PHP.</p>
+                  <p>Some of its features are:</p>
                   <ul>
-                    <li>Runs yarn and encore / webpack if needed</li>
-                    <li>Compares the files, and zips up any changed folders</li>
-                    <li>FTPs the zips to the server</li>
-                    <li>unzips the files on the server</li>
+                    <li>Runs yarn and encore / webpack to build client side assets before deploying, if needed</li>
+                    <li>Compares files, and zips up any changed folders</li>
+                    <li>FTPs the archived files to the server</li>
+                    <li>Unzips the files on the server</li>
                     <li>Warms up the symfony cache on the server</li>
                     <li>Tags Git marking the release</li>
-                    <li>Updates the database schema if needed - backing the database up into a passworded zip</li>
+                    <li>Updates the database schema, only if needed</li>
                   </ul>
 
 
                   <ul class="list-inline item-details">
-                    <li>Features:
+                    <li>Tech:<br>
                       <strong>
                         Git, Zip, FTP
-                      </strong>
+                      </strong><br><br>
                     </li>
-                    <li>Platform:
-                      <strong>
-                        Web
-                      </strong>
-                    </li>
-                    <li>Languages & Frameworks:
+                    <li>Languages & Frameworks:<br>
                       <strong>
                         PHP
-                      </strong>
+                      </strong><br><br>
                     </li>
-                    <li>Date:
+                    <li>Platform:<br>
+                    <strong>
+                      Web
+                    </strong><br><br>
+                  </li>
+                    <li>Date:<br>
                       <strong>
                         Oct 2017 - ongoing
                       </strong>
@@ -806,14 +794,10 @@
                   <p>There are several settings options to tweak the output of the plugin (banner size & text, default location to restrict the business search), this is done via the WordPress options API.</p>
 
                   <ul class="list-inline item-details">
-                    <li>Features:
-                      <strong>
-                        JSON server side connection to Food Agency API, Word Press plugin
-                      </strong>
-                    </li>
+
                     <li>Platform:
                       <strong>
-                       Web, Word Press plugin
+                       WordPress plugin
                       </strong>
                     </li>
                     <li>Languages & Frameworks:
@@ -858,20 +842,12 @@
                   <img class="img-fluid img-centered" style="width: 30%" src="img/portfolio/coulsdonlocal_shot2.jpg" alt="">
                   <img class="img-fluid img-centered" style="width: 30%" src="img/portfolio/coulsdonlocal_shot3.jpg" alt="">
 
+
                   <ul class="list-inline item-details">
-                    <li>Features:
-                      <strong>
-                        Website
-                      </strong>
-                    </li>
+
                     <li>Platform:
                       <strong>
-                        Web
-                      </strong>
-                    </li>
-                    <li>Languages & Frameworks:
-                      <strong>
-                        PHP, Symfony, JQuery, Bootstrap, MySQL
+                        WordPress
                       </strong>
                     </li>
                     <li>Date:
@@ -906,6 +882,7 @@
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" style="width: 50%" src="img/portfolio/jeeves-creations.png" alt="">
                   <p>Website for my wife's dress making: <a href="http://jeevescreations.com">jeevescreations.com</a></p>
+                  <img class="img-fluid img-centered" style="width: 30%" src="img/screenshots/jeevescreations_screenshot.png" alt="">
                   <ul class="list-inline item-details">
                     <li>Features:
                       <strong>
